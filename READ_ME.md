@@ -50,19 +50,3 @@ The light player will always start. The winner will simply
 be whoever has pieces left on the board, at which point 
 no further moves will be allowed.  There are no
 stalemates (infinite games are possible, though boring).
-
-## Open questions
-
-Any suggestions for implementing the two clicks?  We're
-planning to use code similar to reversi's in order to
-implement the UI, but in reversi there was only one click,
-so my best guess is to somehow institute some sort of state?
-
-Further, how should stalemates actually be handled?  Is it
-okay to have an infinite game, or should we actually test
-to see if the game is at a stalemate and generate some sign
-that it's over?
-
-Should the structs to define pieces be turned into their
-own classes, or can they live in model?
-
