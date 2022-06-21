@@ -29,7 +29,7 @@ during that motion, may capture pieces at its destination.
 
 -Bishop:  can move diagonally any number of spaces, unless
 obstructed by a piece.  If that piece is an enemy, it may
-caputre that piece.
+capture that piece.
 
 -Queen:  acts as both a rook/castle and bishop, wrapped up
 in one piece.
